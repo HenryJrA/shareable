@@ -1,5 +1,5 @@
 export default{
-  nme:'user',
+  name:'user',
   title:'User',
   type:'document',
   fields:[
