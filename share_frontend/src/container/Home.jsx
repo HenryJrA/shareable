@@ -1,35 +1,32 @@
-import React, {useState, useRef, useEffect} from 'react'
-import {HiMenu} from 'react-icons/hi';
+import React, { useState, useRef, useEffect } from 'react';
+import { HiMenu } from 'react-icons/hi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { Link, Route, Routes } from 'react-router-dom';
 
-import Pins from './Pins'
-import {Sidebar, UserProfile } from '../components';
-import { client } from '../client';
-import logo from '../assests/logo.png';
+import { Sidebar, UserProfile } from '../components';
 import { userQuery } from '../utils/data';
-
-
+import { client } from '../client';
+import Pins from './Pins';
+import logo from '../assets/logo.png';
 
 const Home = () => {
   const [toggleSidebar, setToggleSidebar] = useState(false);
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState();
   const scrollRef = useRef(null);
+
   const userInfo = localStorage.getItem('user') !== 'undefined' ? JSON.parse(localStorage.getItem('user')) : localStorage.clear();
 
-  useEffect(()=> {
+  useEffect(() => {
     const query = userQuery(userInfo?.googleId);
 
-    client.fetch(query)
-      .then ((data) => {
-        SpeechSynthesisUtterance(data[0]);
-      })
-  }, []) ;
+    client.fetch(query).then((data) => {
+      setUser(data[0]);
+    });
+  }, []);
 
-  useEffect (() => {
-    scrollRef.current.scrollTo(0, 0)
-  }, [])
-
+  useEffect(() => {
+    scrollRef.current.scrollTo(0, 0);
+  });
 
   return (
     <div className="flex bg-gray-50 md:flex-row flex-col h-screen transition-height duration-75 ease-out">
@@ -62,7 +59,7 @@ const Home = () => {
         </Routes>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
