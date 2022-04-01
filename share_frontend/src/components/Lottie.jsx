@@ -7,7 +7,7 @@ import animationData from '../lotties/share.json';
 export default function App() {
   const defaultOptions = {
       loop: false,
-      autoplay: false,
+      autoplay: true,
       animationData: animationData,
       rendererSettings: {
         preserveAspectRatio: "xMidYMid slice"
