@@ -161,7 +161,7 @@ const CreatePin = ({ user }) => {
             type="url"
             vlaue={destination}
             onChange={(e) => setDestination(e.target.value)}
-            placeholder="Add a destination link"
+            placeholder="Add a destination link like(google.com)"
             className="outline-none text-base sm:text-lg border-b-2 border-gray-200 p-2"
           />
 
