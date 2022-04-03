@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+## App Name: Share With All <Lottie />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To check out the App:
 
-## Available Scripts
+[ShareWithAll](https://sharewithall.netlify.app)
 
-In the project directory, you can run:
+## Technology Used:
+  ## BackEnd:
+    - Sanity.io
+  ## FrontEnd:
+    - React.js
+    - Google OAuth
+    - Tailwind.CSS
+    - Masonry Layout
+    - Lottie Player
+    - GitHub
+    - Netlify
 
-### `npm start`
+## Minimum Viable Product:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- AAU, I should be able to LogIn using my Google Authentication.
+- AAU, I should be able to see the Feed page where all users have their posts. 
+- AAU, I should be able to search for a category that was created within the title or description.
+- AAU, I should be able to create a new post and sort it by category.
+- AAU, I should be able to delete any posts that I have created.
+- AAU, I should be able to view my new created post with all post from all users including mine. 
+- AAU, I should be able to choose a category and view all posts related to that.
+- AAU, I should be able to download an image that I like.
+- AAU, I should be able to save an image which will be added to my profile.
+- AAU, I should be able to access the destination link that was provided by the user when creating a post.  
+- AAU, I should be able to go to my profile and view all my saved posts. 
+- AAU, I should be able to go to my user profile to view all my posts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Stretch Goals:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [x] AAU, I should be able to add comments to a post uploaded by any user.
+- [x] AAU, I want to be able to open the on different devices.
+- [ ] AAU, I should be able to trigger Dark Mode.
