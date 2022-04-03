@@ -1,8 +1,16 @@
-## App Name: Share With All <Lottie />
+## App Name: 
+[Share With All](https://sharewithall.netlify.app)
 
 ## To check out the App:
 
 [ShareWithAll](https://sharewithall.netlify.app)
+
+## How the app is looking like:
+
+<img src= "./share_frontend/src/assets/projectlook.PNG">
+
+
+
 
 ## Technology Used:
   ## BackEnd:
